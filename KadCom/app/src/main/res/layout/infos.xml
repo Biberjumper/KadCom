@@ -1,0 +1,70 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/platzhalter_oben"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#00B0FF"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/zuruek"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Zurück"
+			android:textSize="12sp"
+			android:textColor="#E91E63"/>
+	</LinearLayout>
+	<TextView
+		android:id="@+id/info_text1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Diese App wurde von Biberjumper erstellt."
+		android:textSize="20sp"
+		android:textColor="#000000"/>
+	<TextView
+		android:id="@+id/info_text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Das Kadcon Team distanziert sich in allen Punkten von der App!"
+		android:textSize="20sp"
+		android:textColor="#000000"/>
+	<TextView
+		android:id="@+id/info_text3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Für Feedback, Kritik, Verbesserungsvorschläge etc. bitte bei &quot;Kontakt&quot; abgeben oder bei der Mail KadCom.Team\@gmail.com abgeben."
+		android:textSize="20sp"
+		android:textColor="#000000"/>
+	<TextView
+		android:id="@+id/info_text4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Diese App bezieht sich ausschließlich auf das Forum von Kadcon. Alle Rechte und Regeln die auf Kadcon Forum gelten, sind auch hier zu beachten!"
+		android:textSize="20sp"
+		android:textColor="#000000"/>
+	<TextView
+		android:id="@+id/info_text5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Viel Spaß mit der App, wünscht das KadCom Team!"
+		android:textSize="20sp"
+		android:textColor="#000000"/>
+	<LinearLayout
+		android:id="@+id/platzhalter_unten"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:orientation="horizontal"/>
+</LinearLayout>

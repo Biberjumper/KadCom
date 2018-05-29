@@ -1,0 +1,117 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/text1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Willkommen auf KadCom!\nIn dieser App werden Daten wie z.B. die Starts der App auf eine Firebase/an mich zu Verbesserungszwecken gesendet.\nDiese Daten sind (wenn du es so willst) nicht auf dich zurück zu verfolgen (also anonym!)."
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/text2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Wenn du es anonym haben willst, bitte gebe als Name &quot;anonym&quot; oder etwas anderes ein.\nWir wären aber dankbar, wenn du deinen richtigen Kadcon Namen eingeben würdest, dass wir dich vielleicht Ingame kontaktieren können."
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/text3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Diese App wird privat betrieben und das Kadcon Team distanziert sich in allen Punkten von der App!"
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/text4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Alles was an mich gesendet wird:\nWann du das erste mal die App gestartet hast, wie oft du die App gestartet hast, wann du das letzte mal die App geöffnet hast, wie oft du das Menü geöffnet hast, wie oft du auf die Vote Seite gegangen bist,"
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/text5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="wie oft du die Kadcon Seite neu geladen hast,\nWie du die App bewertet hast, wenn du etwas im Chat geschrieben hast, wenn du unerlaubt oder erlaubt in den &quot;StaffOnly Room&quot; gejoint bist, wenn du im Chat ge oder entbannt wurdest"
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/text6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="und natürlich deinen Namen, wenn du einen eingegeben hast."
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/text7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Wenn du diese Bedingungen akzeptierst, akzeptierst du auch, dass wenn du im Chat gebannt wurdest, dass das dann öffentlich angezeigt wird"
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/text8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Die Daten werden über die Google Firebase an mich gesendet. Die Daten werden vertraulich behandelt und geraten ohne deine Erlaubniss nicht in die Hände von Personen außerhalb des KadCom App Teams!"
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/text9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Wenn du sonst noch Fragen hast, bevor du das Akzeptierst, schreib mir/uns bitte per Forum, per Mail (KadCom.team\@gmail.com), oder kontaktiere mich/uns irgendwie anders."
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/text10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Keine Haftung für Inhalte, die nicht von der App aus vorprogrammiert wurden!"
+				android:textSize="11sp"
+				android:textColor="#000000"/>
+			<CheckBox
+				android:id="@+id/checkbox"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Akzeptieren"
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<Button
+				android:id="@+id/accept"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Ich habe alles gelesen, verstanden und akzeptiere es!"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#F44336"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

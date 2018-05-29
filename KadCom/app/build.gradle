@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+	compileSdkVersion 27
+	
+	defaultConfig {
+		applicationId "com.biberjumpers.kadcom.app"
+		minSdkVersion 19
+		targetSdkVersion 22
+		versionCode 7
+		versionName "1.2"
+	}
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+		}
+	}
+}
+
+dependencies {
+	compile fileTree(dir: 'libs', include: ['*.jar'])
+	implementation 'com.google.firebase:firebase-auth:10.0.1'
+	implementation 'com.google.firebase:firebase-database:10.0.1'
+	implementation 'com.google.code.gson:gson:2.8.0'
+}

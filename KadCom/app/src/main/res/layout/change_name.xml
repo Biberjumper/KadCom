@@ -1,0 +1,58 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear_oben"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#00B0FF"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/zuruek"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Zurück"
+			android:textSize="12sp"
+			android:textColor="#E91E63"/>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/seite"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#2196F3"
+		android:orientation="vertical">
+		<EditText
+			android:id="@+id/name_jetzt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Aktueller Name"
+			android:textColorHint="#607D8B"/>
+		<EditText
+			android:id="@+id/name_neu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Neuer Name"
+			android:textColorHint="#607D8B"/>
+		<Button
+			android:id="@+id/change"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Name ändern"
+			android:textSize="12sp"
+			android:textColor="#F44336"/>
+	</LinearLayout>
+</LinearLayout>
